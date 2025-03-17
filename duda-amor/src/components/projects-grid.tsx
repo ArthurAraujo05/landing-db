@@ -36,7 +36,7 @@ export default function ProjectsGrid() {
             description: "Um calendário com todas as nossas datas especiais",
             icon: <Calendar className="size-6" />,
             color: "from-blue-500 to-cyan-700",
-            link: "#",
+            link: "/calendario",
         },
         {
             id: "cartas",
@@ -44,7 +44,7 @@ export default function ProjectsGrid() {
             description: "Uma coleção de cartas escritas especialmente para você",
             icon: <Book className="size-6" />,
             color: "from-red-500 to-rose-700",
-            link: "#",
+            link: "/cartas",
         },
         {
             id: "presentes",
